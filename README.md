@@ -23,7 +23,7 @@ struct chip8 {
     uint8_t  monitor[64*32];    // 64 pixels wide and 32 pixels tall    
     uint8_t  delay_timer;        
     uint8_t  sound_timer;    
-};
+    };
 
 2. emulator_setup -- the *console_init()* function initiaizes the console (a C structure which encapsulates all the hardware componenets as virtual variables) and sets it to zero.
                      the *console_load()* function loads the ROM file of the desired game into the RAM of the console.
