@@ -3,11 +3,11 @@
 This is a C project which emulates the 1970s Chip8 computer.
 
 # libraries Utilised
-  #include <stdio.h>
-  #include <stdint.h>
-  #include <stdlib.h>
-  #include <SDL2/SDL.h>
-  #include <stdbool.h>
+  #include <stdio.h> \n
+  #include <stdint.h> \n
+  #include <stdlib.h> \n
+  #include <SDL2/SDL.h> \n
+  #include <stdbool.h> \n
 
 # Functions
 
